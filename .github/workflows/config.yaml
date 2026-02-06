@@ -15,7 +15,7 @@ jobs:
       - name: Set up Nodejs
         uses: actions/setup-node@v4
         with:
-          node-version: '17'
+          node-version: '14'
 
       - name: Install dependencies and buid API code
         run: |
