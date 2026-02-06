@@ -22,7 +22,7 @@ jobs:
           npm install
 
       - name: Build and bundle application
-        run: npm run build
+        run: npx react-scripts build
 
       - name: Set up AWS CLI
         uses: aws-actions/configure-aws-credentials@v6
